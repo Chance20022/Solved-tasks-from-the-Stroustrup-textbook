@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    ///Rassian УВЕРЕН?))))
     setlocale(LC_ALL, "Rassian");
 
     int choice1;
@@ -11,7 +12,7 @@ int main()
     double money = 0;
 
     while (1) {
-        ///Rassian УВЕРЕН?))))
+        ///Зачем дважды??? Зачем это тут вообще если ты не используешь русский язык
         setlocale(LC_ALL, "Rassian");
 
         
@@ -35,7 +36,7 @@ int main()
             if (choice1 == 1)
             { // гривня
 
-                // ///Comma operator ЗАЧЕМ???   может точка (.) таки>
+                // ///Comma operator ЗАЧЕМ???   может точка (.) таки
                 money = money * 0,38;
                 cout << "По сегодняшнему курсу (0,38) ваша сумма в грифвнях - " << money;
                 cout << endl;
@@ -101,3 +102,4 @@ int main()
         
     }
 }
+// Это если по мелочи
