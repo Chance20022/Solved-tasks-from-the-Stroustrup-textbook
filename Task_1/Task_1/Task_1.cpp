@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    ///Rassian УВЕРЕН?))))
     setlocale(LC_ALL, "Rassian");
 
     int choice1;
@@ -11,8 +12,10 @@ int main()
     double money = 0;
 
     while (1) {
+        ///Зачем дважды??? Зачем это тут вообще 
         setlocale(LC_ALL, "Rassian");
 
+        
         cout << "Выберете валюту: 1 - RUB, 2 - UAH, 3 - USD;" << endl;
         cout << "Чтобы выйти, напишите - 228" << endl;
 
@@ -24,6 +27,7 @@ int main()
 
         if (choice == 1) { //рубли
 
+            ///Comma operator ЗАЧЕМ???
             cout << "Какая сумма? - ", cin >> money;
             cout << endl;
             cout << "Во что хотите перевести? 1 - UAH, 2 - USD - ", cin >> choice1;
@@ -32,6 +36,7 @@ int main()
             if (choice1 == 1)
             { // гривня
 
+                // ///Comma operator ЗАЧЕМ???   может точка (.) таки
                 money = money * 0,38;
                 cout << "По сегодняшнему курсу (0,38) ваша сумма в грифвнях - " << money;
                 cout << endl;
@@ -97,3 +102,4 @@ int main()
         
     }
 }
+// Это если по мелочи
