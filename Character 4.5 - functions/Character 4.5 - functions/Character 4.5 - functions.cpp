@@ -18,21 +18,19 @@ int umn(int x, int z) { // Принимает значени, которые я 
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-
     //использовать умножение, не используя *
 
     int start = 0; // Число, которое должны должны прибавить заданное колличесвто раз
     int ymnoj = 0; // То самое колличесво раз
 
-    cout << "Введите число - ";
+    cout << "Insert the number - ";
     cin >> start;
     cout << endl;
-    cout << "Умножаем на - ";
+    cout << "Multiply by - ";
     cin >> ymnoj;
     cout << endl;
 
     int ends = umn(start, ymnoj); // Присваиваем переменной ends результат функции, отправляя в функцию нужные значения
 
-    cout << "ответ - " << ends;
+    cout << "Answer - " << ends;
 }
