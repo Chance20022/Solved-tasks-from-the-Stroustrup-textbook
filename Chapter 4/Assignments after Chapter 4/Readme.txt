@@ -20,3 +20,7 @@ And vice versa, when you enter the number seven, 7 was displayed.
 
 7)Modify the mini-calculator described in Exercise 5 so that it accepts the input of the 
 numbers written in both numeric and string format.
+
+8)1 cell = 1 grain, 2 cell = 2 grains, 3 cell = 4 grains, 4 cell = 8 grains. 
+With each subsequent cell, the previous number of grains is multiplied by 2. 
+Display on the screen how many cells are needed at 1000, 1,000,000 and 1,000,000,000 grains
