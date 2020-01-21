@@ -12,7 +12,7 @@ int main()
         cornMem = cornMem * 2;
         if (cornMem > 1000) {
             counter = i;
-            cout << "You need " << counter << " cell for 1000" << endl;
+            cout << "You need " << counter+1 << " cell for 1000" << endl;
             counter = i;
             break;
         }
@@ -21,7 +21,7 @@ int main()
         cornMem = cornMem * 2;
         if (cornMem > 1000000) {
             counter = counter + i;
-            cout << "You need " << counter << " cell for 1000000" << endl;
+            cout << "You need " << counter+1 << " cell for 1000000" << endl;
             break;
         }
     }
@@ -29,7 +29,7 @@ int main()
         cornMem = cornMem * 2;
         if (cornMem > 1000000000) {
             counter = counter + i;
-            cout << "You need " << counter << " cell for 1000000000" << endl;
+            cout << "You need " << counter+1 << " cell for 1000000000" << endl;
             break;
         }
     }
