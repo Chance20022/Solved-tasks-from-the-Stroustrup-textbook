@@ -11,7 +11,7 @@ int random() {
         randd = rand();
     }
 }
-
+// Fuck, i forgot
 int main()
 {
     vector<int> numbers;

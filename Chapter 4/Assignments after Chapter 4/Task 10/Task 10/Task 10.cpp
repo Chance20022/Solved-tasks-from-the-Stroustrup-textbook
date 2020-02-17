@@ -36,6 +36,8 @@ int main()
         logic = numbers[i] - choice; // От результата будет зависеть, что выведет программа. 
         // дальше я просто вычел среднеарифметическое число в вескторе и на основе этого числа прикинул границы выборов
 
+        numbers.push_back(logic);
+
         if (logic <= 5) { //rock
             cout << "Program selects rock" << endl;
             if (answer == "rock")

@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	vector<string> name = {"null"};
-	vector<int> scores = {0};
+	vector<string> name = { "null" };
+	vector<int> scores = { 0 };
 	string name1;
 	int scores1 = 0;
 	string search;
@@ -25,20 +25,20 @@ int main()
 		if (name1 == "Noname" && scores1 == 0)
 			break;
 
-			for (int i = 0; i < name.size(); i++) {
-				if (name1 == name[i] && scores1 == scores[i]) {
-					cout << "You enter two same word and number, try again" << endl;
-					name.erase(name.begin() + i);
-					scores.erase(scores.begin() + i);
-					break;
-				}
+		for (int i = 0; i < name.size(); i++) {
+			if (name1 == name[i]) {
+				cout << "You enter two same word, try again" << endl;
+				break;
 			}
-			name.push_back(name1);
-			scores.push_back(scores1);
+			else {
+				name.push_back(name1);
+				scores.push_back(scores1);
+			}
+		}
 	}
 
-	name.erase(name.begin() + 0);
-	scores.erase(scores.begin() + 0);
+	name.erase(name.begin() + 0); // Удаляет первый и не нужный элемент массива
+	scores.erase(scores.begin() + 0); // Удаляет первый и не нужный элемент массива
 
 	cout << "Input needed a student - ", cin >> search;
 	cout << endl;
